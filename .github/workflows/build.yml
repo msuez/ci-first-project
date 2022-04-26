@@ -1,0 +1,11 @@
+name: First workflow
+on:
+  push:
+    branches:
+      - main
+jobs:
+  backend-deploy:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Hi world
+        run: echo "Hi world"
